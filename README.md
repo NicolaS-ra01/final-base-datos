@@ -17,9 +17,6 @@ Driver ODBC	ODBC Driver 18 for SQL Server	Necesario para que Python se conecte a
 Python	Python 3.8 o superior	Entorno de ejecución para la interfaz gráfica.
 Librerías Python	pyodbc	Se instala vía pip install pyodbc.
 
- Guía de Despliegue e Instalación
-
-Sigue estos tres pasos para dejar la base de datos y la aplicación operativas:
 
 Paso 1: Configurar e Inicializar la Base de Datos
 
