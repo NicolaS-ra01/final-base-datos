@@ -55,12 +55,11 @@ pip install pyodbc
 Verifica y ajusta la conexión en la primera sección del archivo app_cafeteria.py:
 Python
 
-    # ---------------- CONFIG CONEXIÓN (AJUSTA AQUÍ SI CAMBIA) ----------------
     DRIVER = "ODBC Driver 18 for SQL Server"
-    SERVER = "localhost,1433"   # <--- Ajusta la dirección de tu servidor
+    SERVER = "localhost,1433"   
     DATABASE = "CafeteriaDB_MS"
-    UID = "sa"                  # <--- Ajusta el usuario
-    PWD = "TuContraseña123!"    # <--- Ajusta la contraseña
+    UID = "sa"                  
+    PWD = "TuContraseña123!"    
     # ...
 
 Paso 3: Ejecutar la Aplicación
